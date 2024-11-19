@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #fcfaee;
+  }
+  
+  .header {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive, sans-serif;
+    padding: 10px;
+    background-color: #384b70;
+    color: #fcfaee;
+    border-bottom: 4px solid #384b70;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+  }
+
+  .gallery img:hover {
+    box-shadow: 0.3px 5px 19px #000;
+    transition: .5s ease-in-out;
+}
